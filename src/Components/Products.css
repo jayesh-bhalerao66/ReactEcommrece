@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btns {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.btns button {
+  padding: 5px 10px;
+}
+
+@media (max-width: 600px) {
+  .btns {
+    flex-direction: column;
+    width: 300px;
+    row-gap: 10px;
+  }
+}

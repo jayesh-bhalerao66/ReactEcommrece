@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ab1 p {
+  font-size: 20px;
+  text-align: justify;
+}
+.ab1 h1 {
+  text-align: center;
+}
+.about_card {
+  height: 300px;
+}
+.aboutcardimg {
+  height: 250px;
+}
+.aboutcardname {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
